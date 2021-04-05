@@ -1,14 +1,30 @@
----
-layout: post
-title: Сайт, где Шпин дурень
----
 <html>
 <head>
-<title>
-{{ page.title }}
+<style>
+  html, body, .container {
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.container > h1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -9px;
+}
+  </style>
+  <title>
+Сайт, где Шпин дурень
 </title>
 </head>
 <body>
-<h1>{{ page.title }}</h1>
+  <div class="container">
+<h1>Сайт, где Шпин дурень</h1>
+  </div>
 </body>
 </html>
